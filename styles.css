@@ -1,0 +1,170 @@
+body
+{
+	background-color: #eaeaea;
+	padding: 1%;
+}
+
+h1
+{
+	border-bottom: double #ccc;
+	display: inline;
+}
+
+h4
+{
+	color: skyblue;
+	padding-top: 2%;
+}
+
+footer
+{
+	text-align: center;
+	background-color: #333;
+	color: skyblue;
+	margin: 0.1% -1%;
+	padding: 1%;
+}
+
+footer .fa
+{
+	font-size: 150%;
+	padding: 1%;
+}
+
+#main
+{
+	background-color: #eaeaea;
+}
+
+#left, #right
+{
+	background-color: white;
+	margin: 0%;
+}
+
+#right
+{
+	background-color: #eaeaea;
+	margin-left: -3%;
+	margin-right: -34%;
+}
+
+#left li
+{
+	font-variant: small-caps;
+}
+
+#right a
+{
+	float: right;
+}
+
+#right a:link
+{
+	text-decoration: none;
+}
+
+#right a:visited
+{
+	color:#999;
+}
+
+#right a:hover
+{
+	color: skyblue;
+	background-color: #111;
+	border: 0.19em solid;
+	border-radius: 50%;
+	padding: 0.5%;
+}
+
+#right span
+{
+	color: skyblue;
+}
+
+#left span
+{
+	color: #777;
+}
+
+#section h4
+{
+	text-align: center;
+}
+
+#section .bord
+{
+	border-left: 0.06em solid #ccc;
+}
+
+@media only screen and (max-width: 970px){
+	#section .bord 
+	{
+		border-left: 0;
+	}
+}
+
+#right .container
+{
+	background-color: white;
+	box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2), 0 0.38em 0.31em 0 rgba(0,0,0,0.19);
+	margin: 1%;
+	padding-top: 1%;
+}
+
+@media only screen and (max-width: 770px){
+	#right {
+		margin: 0%;
+	}
+
+	#left #display .container{
+		max-width: 770px;
+	}
+}
+
+#left .container
+{
+	background-color: white;
+	box-shadow: 0 0.13em 0.5em 0 rgba(0,0,0,0.2), 0 0.38em 0.25em 0 rgba(0,0,0,0.15);
+	padding-bottom: 1%;
+}
+
+#left .noShow li
+{
+	list-style-type: none;
+}
+
+#display
+{
+	box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2), 0 0.38em 1.25em 0 rgba(0,0,0,0.19);
+	margin-top: 1.5%;
+	width: 100%;
+	text-align: center;
+}
+
+#display .container
+{
+	padding: 0.31em;
+	margin: 0;
+}
+
+.center, .bottom
+{
+	display: block;
+	text-align: center;
+}
+
+.caps
+{
+	font-variant: small-caps;
+	color: skyblue;
+	text-align: center;
+	font-size: 115%;
+}
+
+.title
+{
+	font-variant-caps: small-caps;
+	font-size: 170%;
+}
